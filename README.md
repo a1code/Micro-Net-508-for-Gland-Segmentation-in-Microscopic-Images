@@ -8,8 +8,8 @@ Colab Notebook with the full code is [here](https://github.com/a1code/Micro-Net-
 
 **Implementation Summary**:  
 • Implemented the Micro-Net-508 CNN architecture in PyTorch for gland segmentation from microscopic images.     
-• Augmented the available set of training images with radial distortions, Gaussian blur, rotations and flipping to setup a reasonable training dataset.   
-• Explored Torch DataParallel container, various batch sizes and image resizing approaches to reduce model size for training with constrained GPU memory.    
+• Augmented the available set of training images with radial distortions, Gaussian blur, rotations and flipping to setup a reasonably large training dataset.   
+• Explored Torch DataParallel container, various batch sizes and image resizing approaches to reduce model size for training and tuning with constrained GPU memory.    
 
 **Abstract**:  
 For automated microscopic image analysis, segmentation and localization of key structures like tumours, glands, and cells is a crucial step to improve the accuracy of downstream tasks. Deep CNN architectures have been found to be really effective for this task, while also allowing re-usability to segment various structures across different modalities through retraining and hyper-parameter tuning. In this work, we present the details of our implementation of the Micro-Net-508 architecture, which was proposed as the state-of-the-art for gland segmentation from microscopic images. With no implementation available currently and lack of large annotated training data, we found this an interesting problem to contribute towards. Our goal is to compare our implementation of Micro-Net-508 to the model proposed in the paper, and try to reproduce the observed results.

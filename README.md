@@ -1,9 +1,10 @@
 # Micro-Net-508-for-Gland-Segmentation-in-Microscopic-Images
 
-**Note**: Please refer [ProjectDescription.pdf]() and [ProjectSlides.pdf]() for details.   
-Colab Notebook with the full code is [here]().   
+**Note**: Please refer [ProjectDescription.pdf](https://github.com/a1code/Micro-Net-508-for-Gland-Segmentation-in-Microscopic-Images/blob/main/ProjectDescription.pdf) and [ProjectSlides.pdf](https://github.com/a1code/Micro-Net-508-for-Gland-Segmentation-in-Microscopic-Images/blob/main/ProjectSlides.pdf) for details.   
+The actual paper can be found [here](https://arxiv.org/abs/1804.08145).   
+Colab Notebook with the full code is [here](https://github.com/a1code/Micro-Net-508-for-Gland-Segmentation-in-Microscopic-Images/blob/main/code.ipynb).   
 
-**Dataset** : Out of the three data sets used in the paper, only one of them is accessible publicly. Both the Multiplexed Fluorescence Imaging Data and the Computational Precision Medicine (CPM) data set for nuclear segmentation were unavailable. So we used the public Warwick-QU dataset from the Gland Segmentation (GLaS) Challenge for training and evaluating our implementation of Micro- Net-508. The dataset consists of 85 training images along with their respective ground truth images that were annotated by pathologists. The dataset used for our implementation can be accessed [here]().  
+**Dataset** : Out of the three data sets used in the paper, only one of them is accessible publicly. Both the Multiplexed Fluorescence Imaging Data and the Computational Precision Medicine (CPM) data set for nuclear segmentation were unavailable. So we used the public Warwick-QU dataset from the Gland Segmentation (GLaS) Challenge for training and evaluating our implementation of Micro- Net-508. The dataset consists of 85 training images along with their respective ground truth images that were annotated by pathologists. The dataset used for our implementation can be accessed [here](https://drive.google.com/drive/folders/1gKAyZpJetnd3Zg-lA8ljRTXQ6SP1Wggj?usp=sharing).  
 
 **Implementation Summary**:  
 • Implemented MicroNet-508 architecture for T2I using PyTorch and trained the model on   
